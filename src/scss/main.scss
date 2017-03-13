@@ -1,8 +1,43 @@
-body {
-  font-family: Arial, sans-serif;
-  font-size: 16px;
+$tipo-titular: 'Alfa Slab One', cursive;
+$tipo-madre: 'Raleway', sans-serif;
+body{
+  margin: 0px;
+}
+.header-menu{
+  height: 178px;
+  width: 100%;
+  background-color: #F3F4F0;
 
-  h1 {
-    font-weight: bold;
+  .logo{
+  position: absolute;
+  top:  78px;
+  left: 50px;
   }
+
+  .caja-menu{
+    padding-top: 106px;
+    padding-right: 130px;
+    ul li{
+      display: inline;
+      float: right;
+      padding-right: 86px;
+      font-family: $tipo-madre;
+      font-size: 20px;
+
+
+
+    }
+  }
+
+}
+.content-info{
+  height: 1371px;
+  width: 100%;
+  background-color: red;
+
+}
+.footer{
+  height: 247px;
+  width: 100%;
+  background-color: #1B998B;
 }
