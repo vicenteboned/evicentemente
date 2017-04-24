@@ -1,11 +1,9 @@
 "use strict";
 
-var Person = function Person(name) {
-  this.name = name;
-  this.channel = function (channel) {
-    return "Hola soy " + name + "!, y esto es " + channel;
-  };
-};
-
-var David = new Person('David');
-console.log(David.channel('Aprendiendo Frontend'));
+function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+    /*  document.getElementById("menu_eliminar").style.visibility = "hidden";*/
+}
+function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+}
