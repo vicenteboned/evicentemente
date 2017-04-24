@@ -1,0 +1,37 @@
+$tipo-titular: 'Alfa Slab One';
+$tipo-madre: 'Raleway', sans-serif;
+$tipo-madre-italica:'Raleway', cursive;
+
+h1{font-size: 40px; font-family: $tipo-titular;}
+h2{font-size: 40px; font-family: $tipo-titular;}
+h3{font-size: 36px; font-family: $tipo-madre;}
+h3.title_proyect{font-family: $tipo-madre;
+color:white;}
+h4{font-size: 30px; font-family: $tipo-madre-italica;}
+h5{font-size: 30px; font-family: $tipo-madre;}
+
+h6{font-size: 30px; font-family: $tipo-madre;}
+p{font-size: 20px; font-family: $tipo-madre;}
+p.description_proyect {font-size: 20px; font-family: $tipo-madre;
+color: white;}
+
+h1.tablet{font-size: 34px; font-family: $tipo-titular;}
+h2.tablet{font-size: 30px; font-family: $tipo-titular;}
+h3.tablet{font-size: 30px; font-family: $tipo-madre;}
+h4.tablet{font-size: 26px; font-family: $tipo-madre-italica;}
+h5.tablet{font-size: 26px; font-family: $tipo-madre;}
+h6.tablet{font-size: 22px; font-family: $tipo-madre; margin: 0px; font-weight: 300; color: black;}
+p.tablet{font-size: 17px; font-family: $tipo-madre;}
+
+h1.mobile{font-size: 32px; font-family: $tipo-titular; margin: 0px; padding-bottom: 40px; padding-top: 40px;}
+h2.mobile{font-size: 25px; font-family: $tipo-titular; margin: 0px;}
+h3.mobile{font-size: 26px; font-family: $tipo-madre; margin: 0px; padding-bottom: 40px; padding-top: 40px;}
+h3.mobile_titulol_proyecto{font-size: 26px; font-family: $tipo-madre; margin: 0px; padding-bottom: 0px; padding-top: 10px; color: white;}
+h4.mobile{font-size: 24px; font-family: $tipo-madre; margin: 0px;}
+h5.mobile{font-size: 20px; font-family: $tipo-madre; margin: 0px; font-weight: 300; line-height: 80px}
+h6.mobile{font-size: 18px; font-family: $tipo-madre; margin: 0px; line-height: 17px; font-weight: 300;}
+p.mobile{font-size: 16px; font-family: $tipo-madre; margin: 0px; font-weight: 300; line-height: 25px;}
+p.mobile{font-size: 16px; font-family: $tipo-madre; margin: 0px; font-weight: 300; line-height: 25px;}
+p.mobile_mail{font-size: 16px; font-family: $tipo-madre; margin: 0px; font-weight: cursive; line-height: 25px; font-style: italic; color: #1B998B;}
+p.mobile_mail_footer{font-size: 16px; font-family: $tipo-madre; margin: 0px; font-weight: 200; font-style: oblique; line-height: 25px; color: white;}
+p.mobile_descripcion_proyecto{font-size: 16px; font-family: $tipo-madre; margin: 0px; font-weight: 300; line-height: 25px; color: white;}

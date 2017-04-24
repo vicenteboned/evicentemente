@@ -1,43 +1,17 @@
-$tipo-titular: 'Alfa Slab One', cursive;
-$tipo-madre: 'Raleway', sans-serif;
-body{
-  margin: 0px;
-}
-.header-menu{
-  height: 178px;
-  width: 100%;
-  background-color: #F3F4F0;
 
-  .logo{
-  position: absolute;
-  top:  78px;
-  left: 50px;
-  }
-
-  .caja-menu{
-    padding-top: 106px;
-    padding-right: 130px;
-    ul li{
-      display: inline;
-      float: right;
-      padding-right: 86px;
-      font-family: $tipo-madre;
-      font-size: 20px;
-
-
-
-    }
-  }
-
-}
-.content-info{
-  height: 1371px;
-  width: 100%;
-  background-color: red;
-
-}
-.footer{
-  height: 247px;
-  width: 100%;
-  background-color: #1B998B;
-}
+@import 'index';
+@import 'about';
+@import 'components/style';
+@import 'components/fonts';
+@import 'components/header';
+@import 'components/footer';
+@import 'components/colors';
+@import 'components/botons';
+@import 'components/hr';
+@import 'components/caja_proyecto';
+@import 'components/marges';
+@import 'contacto';
+@import 'about';
+@import 'proyectos';
+@import 'media';
+@import 'vista_proyecto';

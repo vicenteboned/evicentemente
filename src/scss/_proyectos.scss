@@ -1,0 +1,24 @@
+.contenido-proyectos{
+  padding-top: 40px;
+  .proyecto{
+    width: 100%;
+    height: auto;;
+    .capa-filtro{
+      .info-proyecto{
+        height: 171px;
+        -webkit-background-size: cover;
+        .filtro{
+          background-color: #1B998B;
+          opacity: 0.80;
+          height: 171px;
+          text-align: center;
+
+        }
+
+      }
+    }
+  }
+  /*#hover-project{
+    display: none;
+  }*/
+}
